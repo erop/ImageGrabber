@@ -1,0 +1,12 @@
+- add form for entering URL
+  - provide URL validation for the form
+- after form submission
+  - save URL to session
+  - redirect to the second view
+- on second view
+  - grab URL from session
+  - use crawler to get the page
+  - extract all the images
+  - make a parallel request for every images
+- add functional tests for http://mayak.travel page
+  - copy the page as HAR-file 
